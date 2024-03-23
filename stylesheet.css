@@ -77,8 +77,7 @@ ul li a:hover {
 /* Banner 1 */
 
 .banner1 {
-  background-image: url(./Assets/Building-1.jpg);
-  height: 100vh;
+  background-image: url();
   background-position: center;
   background-size: cover;
   color: aliceblue;
