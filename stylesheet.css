@@ -104,6 +104,7 @@ ul li a:hover {
   display: flex;
   flex-wrap: wrap;
   letter-spacing: 2px;
+  font-weight: lighter;
 }
 
 .c1sub2 {
@@ -121,9 +122,12 @@ ul li a:hover {
 .c1sub4 {
   font-size: 18px;
   font-family: var(--googlefont);
-  font-weight: 300 !important;
+  color: white;
   line-height: 22px;
   overflow: hidden;
+  font-weight: 250;
+  display: flex;
+  flex-direction: column;
 }
 
 /* Banner 2 */
@@ -249,6 +253,45 @@ ul li a:hover {
   display: flex;
   justify-content: center;
   padding-top: 1em;
+}
+
+/*  Banner 4 */
+
+.banner-4 {
+  height: 90vh;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.square {
+  margin-top: 10em;
+  width: 25em;
+  padding: 2em;
+}
+
+.b4c1 {
+  font-family: var(--bigfont);
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+.sp {
+  padding-right: 0.3em;
+}
+
+.b4c2 {
+  display: flex;
+  color: #ef0d33;
+  justify-content: center;
+}
+
+.b4c3 {
+  font-family: var(--googlefont);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 1em;
 }
 
 @media screen and (max-width: 1024px) {
