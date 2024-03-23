@@ -79,11 +79,16 @@ ul li a:hover {
 /* Banner 1 */
 
 .banner1 {
+  background-image: url(./Assets/building-1.jpg);
+  background-position: center;
+  background-size: cover;
   display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .subcontent-1 {
-  margin: 6em 0 0 12%;
+  margin: 160px 0 160px 0px;
 }
 
 .c1sub1 {
@@ -95,6 +100,7 @@ ul li a:hover {
 
 .c1sub2 {
   font-size: 75px;
+  color: aliceblue;
   font-family: var(--bigfont);
 }
 
@@ -106,6 +112,7 @@ ul li a:hover {
 .c1sub4 {
   font-family: var(--googlefont);
   padding-top: 2em;
+  color: aliceblue;
 }
 
 /* Banner 2 */
@@ -117,7 +124,7 @@ ul li a:hover {
 }
 
 .content-2 {
-  margin-top: 7em;
+  margin: 280px;
 }
 
 .b2c1 {
@@ -143,7 +150,6 @@ ul li a:hover {
 /* banner 3 */
 
 .banner-3 {
-  margin-top: 17%;
   background-image: url(./Assets/global2.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -232,7 +238,7 @@ ul li a:hover {
 /*  Banner 4 */
 
 .banner-4 {
-  margin-top: 200px;
+  margin: 200px 0 200px 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -241,8 +247,7 @@ ul li a:hover {
 .square {
   width: 21em;
   margin: 3px;
-  padding: 2px;
-  background-color: palegreen;
+  padding: 15px;
 }
 
 .b4c1 {
