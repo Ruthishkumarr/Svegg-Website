@@ -232,15 +232,16 @@ ul li a:hover {
 /*  Banner 4 */
 
 .banner-4 {
+  margin-top: 200px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
 
 .square {
-  width: 25%;
-  margin: 2em;
-  padding: 2em;
+  width: 21em;
+  margin: 3px;
+  padding: 2px;
   background-color: palegreen;
 }
 
